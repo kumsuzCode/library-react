@@ -15,7 +15,7 @@ function Landing() {
               <button className="btn">Browse books</button>
             </a>
           </div>
-          <figure className="header__img-wrapper">
+          <figure className="header__img--wrapper">
             <img src={UndrawBooks} alt="" />
           </figure>
         </div>
