@@ -45,7 +45,7 @@ function App() {
       <div className="App">
         <Nav cartItems={cartItems()} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/library-react/" element={<Home />} />
           <Route path="/books" element={<Books books={books} />} />
           <Route
             path="/books/:id"
