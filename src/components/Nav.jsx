@@ -15,7 +15,7 @@ export default function Nav({ cartItems }) {
   return (
     <nav>
       <div className="nav__container">
-        <Link to="/">
+        <Link to="/library-react/">
           <img src={LibraryLogo} alt="" className="logo" />
         </Link>
         <ul className="nav__links">
